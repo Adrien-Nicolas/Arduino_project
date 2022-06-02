@@ -1,15 +1,15 @@
-# Arduino_project
+### Arduino_project
 
 Make with [![My Skills](https://skills.thijs.gg/icons?i=c,arduino)](https://skills.thijs.gg)
 
-# Eq platform 
+## Eq platform 
 
 I bought a telescope to see stars, but I have encountered a problem : When I was observing the stars in my telescope, they were moving with the rotation of the earth. So I studied and modeled a project called 'Equatorial Platform'. This one, through its movement, and with the inclination equal to my latitude, allowed to follow the rotation of the earth.
 
 ![eqplatform](https://user-images.githubusercontent.com/73825898/171649408-0db79e62-6e50-4974-8f82-755c3d8e7a95.gif)
 ![Scheme jpg 454e704f426362fd6eff24decbf70fb9](https://user-images.githubusercontent.com/73825898/171650033-2c06a918-9030-4336-8ed8-06ef285b9087.jpg)
 
-# Distance sensor
+## Distance sensor
 
 The distance sensor project came from a rather original idea: Can we warn motorists that a collision may happen and warn them just before it happens in order to be able to mitigate it?
 To answer this question I wanted to do a little experiment. I therefore equipped myself with an ultrasonic sensor to calculate a distance from a surface, and I therefore calculated the speed of this surface approaching the sensor in order to be able to estimate the time remaining before the collision, and display a message alert.
@@ -27,4 +27,15 @@ This one will be placed at a certain initial distance, the sensor will make a fi
 We observe thus that according to the results, we have a total distance at the base of 59,25 cm, the first measurement was carried out at a distance of 45.57 cm and the second at 36.02 cm. The final calculated speed is 9.55 cm/s. And by obtaining the speed of the vehicle, that allowed us to obtain the time that the vehicle will take to exceed the safety distance put (here 30cm). So we will wait 3 seconds before the warning message appears.
 
 ![sensor distance result](https://user-images.githubusercontent.com/73825898/171687028-6888728b-8624-4e28-9922-cfdfc2a8168d.png)
+
+## Wheather Box
+
+The weather box was originally created to be housed in a greenhouse claiming to be autonomous. Indeed, the idea was to collect as much weather data as possible (such as luminosity, temperature, humidity, and the number of millimeters of rain that finally fell). 
+
+![sprinkler](https://user-images.githubusercontent.com/73825898/171719487-d8c651e6-95b9-4986-99d0-2462cb5a703f.png)
+
+Therefore, this project is still in progress, and will want to evolve to become connected (connected to the network) and send this data to an API (also created later).
+As a result, we can also create a Dashboard, facilitate graphs of weather data, anywhere, anytime.
+
+![thermometer](https://user-images.githubusercontent.com/73825898/171719501-f489e85c-0ea6-4151-a036-6b2ae2791372.png)
 
